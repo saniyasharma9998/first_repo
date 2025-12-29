@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Block Example</title>
+    <style>
+        .inline-block-container {
+            margin: 20px;
+            border: 2px solid #333;
+            padding: 10px;
+        }
+
+        .box {
+            display: inline-block;
+            width: 150px;
+            height: 100px;
+            margin: 10px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border: 2px solid #666;
+            vertical-align: top;
+        }
+
+        .menu-item {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+        }
+
+        .image-caption {
+            display: inline-block;
+            width: 200px;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            background-color: #e1e1e1;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inline Block Examples</h1>
+
+    <!-- Example 1: Navigation Menu -->
+    <div class="inline-block-container">
+        <h2>Navigation Menu Example</h2>
+        <a href="#" class="menu-item">Home</a>
+        <a href="#" class="menu-item">About</a>
+        <a href="#" class="menu-item">Services</a>
+        <a href="#" class="menu-item">Contact</a>
+    </div>
+
+    <!-- Example 2: Content Boxes -->
+    <div class="inline-block-container">
+        <h2>Content Boxes Example</h2>
+        <div class="box">
+            <h3>Box 1</h3>
+            <p>This is some content in box 1.</p>
+        </div>
+        <div class="box">
+            <h3>Box 2</h3>
+            <p>This is some content in box 2.</p>
+        </div>
+        <div class="box">
+            <h3>Box 3</h3>
+            <p>This is some content in box 3.</p>
+        </div>
+    </div>
+
+    <!-- Example 3: Image Gallery with Captions -->
+    <div class="inline-block-container">
+        <h2>Image Gallery Example</h2>
+        <div class="image-caption">
+            <img src="https://via.placeholder.com/150" alt="Placeholder 1">
+            <p>Image Caption 1</p>
+        </div>
+        <div class="image-caption">
+            <img src="https://via.placeholder.com/150" alt="Placeholder 2">
+            <p>Image Caption 2</p>
+        </div>
+        <div class="image-caption">
+            <img src="https://via.placeholder.com/150" alt="Placeholder 3">
+            <p>Image Caption 3</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+        background-color: whitesmoke;
+        margin: 0;
+        padding: 0px;
+        /* box-sizing: border-box; */
+      }
+
+      header {
+        text-align: center;
+        /* margin-bottom: 20px; */
+        color: black;
+      }
+
+      .library-container {
+        justify-content: center;
+        gap: 10px;
+        max-width: 2200px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .library-card {
+        display: inline-block;
+        background-color: grey;
+        border: 2px solid black;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px blanchedalmond;
+        width: 250px;
+        text-align: center;
+      }
+
+      .library-card.price {
+        font-size: 1.1em;
+        color: black;
+        margin: 10px 0;
+      }
+
+      .library-card img {
+        margin-top: 10px;
+        background-color: grey;
+      }
+
+      .add-to-cart {
+        background-color: gainsboro;
+        color: blue;
+        border: px solid black;
+        border-radius: 4px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <center>
+        <h2>Electronic Items</h2>
+      </center>
+    </header>
+    <div class="library-container">
+      <div class="library-card">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5st0ZKNvS3-Muqt49uhsZKmvqpT33vnML-w&s"
+          height="300px"
+          width="200px"
+        />
+        <h4>The silent patient</h4>
+        <p class="price">RS 5,00</p>
+        <button class="add-to-cart">Add to cart</button>
+      </div>
+      <div class="library-card">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOh8zQ74W6IeSuJDOAQDms4-eYdQhMvsUAYQ&s"
+          height="300px"
+          width="200px"
+        />
+        <h4>aThe psycology of money</h4>
+        <p class="price">RS 350</p>
+        <button class="add-to-cart">Add to cart</button>
+      </div>
+      <div class="library-card">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbVfCry2kQHXYYsubTYSkHUeL-G6hYYxo9pg&s"
+          height="300px"
+          width="200px"
+        />
+        <h4>The obstacale is the way</h4>
+        <p class="price">RS 250</p>
+        <button class="add-to-cart">Add to cart</button>
+      </div>
+      <div class="library-card">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJCoUnWUo21Gwvu7GbE3IHax4Fb3rogtAqWQ&s"
+          height="300px"
+          width="200px"
+        />
+        <h4>The motivation manifasto</h4>
+        <p class="price">RS 300</p>
+        <button class="add-to-cart">Add to cart</button>
+      </div>
+      <div class="library-card">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbCayyHOSodXu6Xg0QChP7rrd315aQ-KTbSA&s"
+          height="300px"
+          width="200px"
+        />
+        <h4>Life of pi</h4>
+        <p class="price">RS 400</p>
+        <button class="add-to-cart">Add to cart</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission Form</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: beige;
+        padding: 20px;
+      }
+      form {
+        background-color: burlywood;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: 8px;
+      }
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+      }
+      input[type="text"],
+      input[type="password"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid black;
+        border-radius: 4px;
+      }
+      input[type="submit"],
+      input[type="reset"] {
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <centre
+      ><h2 style="text-align: center; background-color: brown; color: azure">
+        Admission Form
+      </h2></centre
+    >
+    <form>
+      <label>Full Name:</label>
+      <input type="text" name="fullname">
+      <label>Email:</label>
+      <input type="text" name="email" />
+      <label>Password:</label>
+      <input type="password" name="password" />
+
+      <label>Course Applied For:</label>
+      <select name="course">
+        <option value="btech">B.Tech</option>
+        <option value="bsc">B.Sc</option>
+        <option value="ba">B.A</option>
+        <option value="mtech">M.Tech</option>
+        <option value="msc">M.Sc</option>
+        <option value="ma">M.A</option>
+      </select>
+      <!-- <br /><br /> -->
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="male" >Male
+      <input type="radio" name="gender" value="female" >Female
+      <input type="radio" name="gender" value="other" >Other
+      
+      <label>Languages known</label>
+      <input type="checkbox" name="Languages" value="english" >english
+      <input type="checkbox" name="Languages" value="hindi" >hindi
+      <input type="checkbox" name="Languages" value="other" >other
+
+      
+      <label>Address</label>
+      <textarea name="address" rows="5" cols="30"></textarea>
+      
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+      
+    </form>
+  </body>
+</html>
