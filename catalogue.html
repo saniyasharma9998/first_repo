@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalogue for Electronic items</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px;
+        margin: 20px; 
+        background-color: beige;
+      }
+      header {
+        text-align: center;
+        background-color: burlywood;
+        color: blue;
+      }
+      .catalogue-container {
+        display: inline-block;
+        justify-content: center;
+        gap: 50px; 
+        max-width: 220000px;
+        margin-top: 20px;
+      }
+      .product-cart {
+        display: inline-block;
+        background-color: burlywood;
+        border: 4px solid black;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 500px;
+        text-align: center;
+      }
+      .product-cart img {
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 15px;
+      }
+      .product-cart h2 {
+        font-size: 1.5em;
+        color: brown;
+        margin-bottom: 10px;
+      }
+      .product-cart .price {
+        font-size: 1.2em;
+        color: aliceblue;
+        font-weight: bold;
+        margin-bottom: 10px 0 20px;
+      }
+      .product-cart .description {
+        font-size: 1em;
+        color: black;
+        margin-bottom: 15px;
+        height: 40px;
+      }
+      .add-to-cart {
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Electronic items</h1>
+    </header>
+    <div class="catalogue-container">
+      <div class="product-cart">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf8LM3A2zA_yrKGZLSyt_ibb26TnVKC5XP_w&s"
+          alt="laptop Hp i5"
+          height="200px"
+          width="150px"
+        >
+        <h2>Laptop Hp i5</h2>
+        <p class="price">Rs. 80,000</p>
+        <p class="description">
+          Hp Intel Core i5 12th Gen-(8 GB/512 GB SSD/Windows 11 Home)
+        </p>
+        <button class="add-to-cart">Add to cart</button>
+      </div>
+      <div class="product-cart">
+        <img
+          src="https://in.canon/media/image/2024/07/17/3d47abeaf9574a9ba9401c6ff2ca7bb1_EOS+R5+Mark+II+%26+RF24-105mm+f4L+IS+USM+Front+Slant.png "
+          alt="camera"
+          height="200px"
+          width="150px"
+        >
+        <h2>Camera</h2>
+        <p class="price">Rs. 50,000</p>
+        <p class="description">Canon 5D Mark IV DSLR Camera with 24-105mm</p>
+        <button class="add-to-cart">Add to cart</button>
+      </div>
+      <div class="product-cart">
+        <img
+          src="https://img-prd-pim.poorvika.com/cdn-cgi/image/width=500,height=500,quality=75/product/apple-iphone-13-pink-128gb-front-view.png"
+          alt="iphone 13"
+          height="200px"
+          width="150px"
+        />
+        <h2>Iphone 13</h2>
+        <p class="price">Rs. 70,000</p>
+        <p class="description">Apple iPhone 13 (128GB) - Midnight</p>
+        <button class="add-to-cart">Add to cart</button>
+      </div>
+      <div class="product-cart">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcrRFoQw6zUSWq9zkdBZOVH-BpppGxu7C-Sw&s"
+          alt="Headphone"
+          height="300px"
+          width="150px"
+        />
+        <h2>Headphone</h2>
+        <p class="price">Rs. 5,000</p>
+        <p class="description">Boat Rockerz 450 Bluetooth On Ear Headphones</p>
+        <button class="add-to-cart">Add to cart</button>
+      </div>
+      <div class="product-cart">
+        <img
+          src="https://www.gonoise.com/cdn/shop/files/1_c95e5561-4f66-413d-b143-42d31821e554.webp?v=1721392308"
+          alt="smart watch"
+          height="200px"
+          width="150px"
+        />
+        <h2>Smart Watch</h2>
+        <p class="price">Rs. 10,000</p>
+        <p class="description">
+          Noise ColorFit Pro 3 Smart Watch with 1.55" LCD
+        </p>
+        <button class="add-to-cart">Add to cart</button>
+      </div>
+    </div>
+  </body>
+</html>
